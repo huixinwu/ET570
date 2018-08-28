@@ -1,0 +1,114 @@
+.header{
+  background-color: rgb(0,150,0);
+  box-shadow: 0.15em 0.15em rgba(0,60,0,0.2);
+  margin-bottom: 0.2em;
+  border-radius: 0 .5em 0 0.5em;
+  height: 3em;
+  width: 100%;
+  box-sizing:border-box;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  padding: 0.3em;
+  text-align: center;
+  font-weight:bolder;
+  color:white;
+}
+.container_top, .container_bottom{
+  box-sizing: border-box;
+  width:100%;
+  height: 16em;
+  position:relative;
+}
+#intro, #bottom_image3{
+  width: 44%;
+  margin: 0.2em;
+  box-sizing:border-box;
+  height: 97%;
+  float: left;
+}
+#top_image1, #top_image2, #bottom_image4, #bottom_image5{
+  width: 52%;
+  box-sizing:border-box;
+  height: 47%;
+  float: right;
+  margin: 0.2em;
+  position: relative;
+  transition: 0.5s;
+}
+.footer{
+  width: 100%;
+  height: 3.5em;
+  box-sizing: border-box;
+}
+#footer_left, #footer_center, #footer_right{
+  width:33.3%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+#image_text1, #image_text2, #image_text4, #image_text5{
+  position: absolute;
+  height: 1em;
+  width: 80%;
+  top: 5em;
+  left: 1em;
+  box-shadow: 0 0 5px 5px rgba(147,45,22,0.5);
+  background-color: rgba(147,45,22,0.5);
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+#image_text3{
+  position: absolute;
+  height: 1em;
+  top: 13.5em;
+  left:1em;
+  width: 30%;
+  box-shadow: 0 0 5px 5px rgba(147,45,22,0.5);
+  background-color: rgba(147,45,22,0.5);
+  color: white;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+#footer_left{
+  font-size: 1.3em;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(0,150,0);
+  color: white;
+  box-shadow: 0.15em 0.15em rgba(0,60,0,0.2);
+  border-left:solid white;
+}
+#footer_center, #footer_right{
+  font-size: 1.2em;
+  text-align: center;
+  background-color:black;
+  color:rgb(0,200,0);
+  box-shadow: 0.15em 0.15em rgba(0,60,0,0.2);
+  border-left:solid white;
+}
+a{
+  text-decoration: none;
+}
+#image_text1
+{animation:animatezoom 0.6s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+#image_text2
+{animation:animatezoom 1.0s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+#image_text3
+{animation:animatezoom 1.8s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+#image_text4
+{animation:animatezoom 1.8s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+#image_text5
+{animation:animatezoom 2.2s}
+@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+#top_image1:hover{
+    transform: scale(1.2);
+    background-color: black;
+}
